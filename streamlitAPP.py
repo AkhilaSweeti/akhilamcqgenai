@@ -9,8 +9,6 @@ from langchain.callbacks import get_openai_callback
 from src.mcqgenerator.MCQgenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
-
-
 #loading json file
 with open("D:\akhilamcqgenai\Response.json") as file:
     RESPONSE_JSON=json.load(file)
